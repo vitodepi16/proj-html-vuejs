@@ -1,5 +1,5 @@
 <template>
-  <div class="jumbotron vh-100">
+  <div class="jumbotron">
     <div class="navbar d-flex justify-content-between align-items-center">
       <div class="nav left">
         <div class="logo ms-5">
@@ -94,7 +94,7 @@ ul {
   .book-release {
     width: 40%;
     background-color: white;
-    margin-top: 200px;
+    margin-top: 10%;
 
     h2 {
       color: black;
