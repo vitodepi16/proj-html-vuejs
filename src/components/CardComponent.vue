@@ -42,10 +42,25 @@ export default {
     margin: 1.4rem;
   }
 }
+
 .card-image {
   img {
     height: 100%;
     width: 100%;
+    opacity: 0.9;
+  }
+  img:hover {
+    cursor: pointer;
+    opacity: 1;
+    background: rgb(34, 195, 126);
+    background: linear-gradient(
+      0deg,
+      rgba(34, 195, 126, 0.9304096638655462) 11%,
+      rgba(173, 233, 229, 0.7511379551820728) 53%,
+      rgba(223, 246, 227, 1) 79%,
+      rgba(255, 255, 255, 1) 95%
+    );
+    transition: 100ms;
   }
 }
 </style>

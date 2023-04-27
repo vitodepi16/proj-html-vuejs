@@ -55,6 +55,7 @@ p {
   color: $bg-subtitle;
   line-height: 2em;
 }
+
 .btn {
   background-color: $btn-green;
   font-size: small;
