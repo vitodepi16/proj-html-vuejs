@@ -7,6 +7,7 @@
   <NewsletterComponent />
   <PersonalBook />
   <RecentComponent />
+  <FooterComponent />
 </template>
 
 <script>
@@ -18,6 +19,7 @@ import CriticsComponent from "./components/CriticsComponent.vue";
 import EventComponent from "./components/EventComponent.vue";
 import PersonalBook from "./components/PersonalBook.vue";
 import RecentComponent from "./components/RecentComponent.vue";
+import FooterComponent from "./components/FooterComponent.vue";
 export default {
   name: "App",
   components: {
@@ -29,6 +31,7 @@ export default {
     EventComponent,
     PersonalBook,
     RecentComponent,
+    FooterComponent,
   },
 };
 </script>
