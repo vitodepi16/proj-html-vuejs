@@ -1,6 +1,6 @@
 <template>
   <div class="backg">
-    <div class="container p-5">
+    <div class="container p-5 mb-4">
       <div class="zone-up d-flex justify-content-between p-3 mt-2">
         <div class="title">
           <h1>Recent articles</h1>

@@ -31,7 +31,7 @@
         </h2>
         <p>-The New York Times</p>
       </div>
-      <div class="book-release pt-3">
+      <div class="book-release p-4">
         <div class="d-flex">
           <div class="book-img">
             <img src="../../public/img/book-widget.png" class="ms-4" alt="" />
@@ -122,7 +122,12 @@ ul {
     }
   }
 }
-
+.book-img {
+  width: fit-content;
+  img {
+    width: 100%;
+  }
+}
 .logo {
   width: 100px;
   img {
