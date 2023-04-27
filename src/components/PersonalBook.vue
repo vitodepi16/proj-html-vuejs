@@ -3,7 +3,7 @@
     <h2 class="fs-1 p-4 fw-bold">Dig A Little Deeper Into Damon Vaughn</h2>
     <h3 class="fs-5 p-3">FIND OUT MORE ABOUT THE AUTHOR HIMSELF</h3>
     <div class="card-book d-flex">
-      <div class="row p-3 ms-4 me-4">
+      <div class="row p-3 ms-4 me-4 mb-5">
         <Cardbook v-for="item in event" :item="item" />
       </div>
     </div>
