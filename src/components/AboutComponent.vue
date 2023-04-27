@@ -12,28 +12,16 @@
     <div class="container">
       <ul class="d-flex justify-content-center p-3">
         <li>
-          <img
-            src="../../public/img/ebay-logotan-2x-600x197.png"
-            alt=""
-            srcset=""
-          />
+          <img src="img/ebay-logotan-2x-600x197.png" alt="" srcset="" />
         </li>
         <li>
-          <img
-            src="../../public/img/audible-logotan-2x-200x66.png"
-            alt=""
-            srcset=""
-          />
+          <img src="img/audible-logotan-2x-200x66.png" alt="" srcset="" />
         </li>
         <li>
-          <img src="../../public/img/bb-logotan-2x.png" alt="" srcset="" />
+          <img src="img/bb-logotan-2x.png" alt="" srcset="" />
         </li>
         <li>
-          <img
-            src="../../public/img/kindlefire-logotan-2x-200x66.png"
-            alt=""
-            srcset=""
-          />
+          <img src="img/kindlefire-logotan-2x-200x66.png" alt="" srcset="" />
         </li>
       </ul>
     </div>

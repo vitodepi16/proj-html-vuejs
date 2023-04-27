@@ -2,7 +2,7 @@
   <div class="audiobook">
     <div class="container d-flex justify-content-center">
       <div class="phone-book">
-        <img src="../../public/img/audible-app-2x-400x418.png" alt="" />
+        <img src="img/audible-app-2x-400x418.png" alt="" />
       </div>
       <div class="shop text-center">
         <h1>New AudioBook</h1>
@@ -40,7 +40,7 @@ export default {
   margin-top: 8rem;
 }
 .audiobook {
-  background-image: url("../../public/img/bg-book-rotate.jpeg");
+  background-image: url("img/bg-book-rotate.jpeg");
   background-repeat: no-repeat;
 }
 h1 {

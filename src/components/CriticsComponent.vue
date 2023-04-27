@@ -7,11 +7,7 @@
     <div class="d-flex justify-content-around">
       <section class="section-left">
         <div class="card card-left text-bg-dark">
-          <img
-            src="../../public/img/event-04-800x479.jpg"
-            class="h-100"
-            alt="..."
-          />
+          <img src="img/event-04-800x479.jpg" class="h-100" alt="..." />
           <div class="card-img-overlay">
             <h5 class="card-title fs-2 p-3 ms-4">
               Best Author of His Generation
@@ -39,10 +35,7 @@
                 >
               </p>
               <p class="card-text mt-5">
-                <img
-                  src="../../public/img/nytimes-logo-white-xsmall.png"
-                  alt=""
-                />
+                <img src="img/nytimes-logo-white-xsmall.png" alt="" />
                 Justine Kilpatrick,
                 <span style="color: #49a987">The New York Times</span>
               </p>
@@ -65,11 +58,7 @@
             </div>
           </div>
           <h3 class="fs-5">
-            <img
-              class="me-4"
-              src="../../public/img/theguardian-xsmall.png"
-              alt=""
-            />
+            <img class="me-4" src="img/theguardian-xsmall.png" alt="" />
             Gerald Hendley, <span class="fs-6 giornalist">The Guardian </span>
           </h3>
         </div>
@@ -86,7 +75,7 @@
             </div>
           </div>
           <h3 class="fs-5">
-            <img class="me-4" src="../../public/img/globe-xsmall.png" alt="" />
+            <img class="me-4" src="img/globe-xsmall.png" alt="" />
             Mary Maxey,<span class="fs-6 giornalist">The Globe And Mail</span>
           </h3>
         </div>
