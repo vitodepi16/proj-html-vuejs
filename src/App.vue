@@ -6,6 +6,7 @@
   <EventComponent />
   <NewsletterComponent />
   <PersonalBook />
+  <RecentComponent />
 </template>
 
 <script>
@@ -16,6 +17,7 @@ import NewsletterComponent from "./components/NewsletterComponent.vue";
 import CriticsComponent from "./components/CriticsComponent.vue";
 import EventComponent from "./components/EventComponent.vue";
 import PersonalBook from "./components/PersonalBook.vue";
+import RecentComponent from "./components/RecentComponent.vue";
 export default {
   name: "App",
   components: {
@@ -26,6 +28,7 @@ export default {
     NewsletterComponent,
     EventComponent,
     PersonalBook,
+    RecentComponent,
   },
 };
 </script>
