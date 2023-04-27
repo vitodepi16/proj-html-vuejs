@@ -1,6 +1,6 @@
 <template>
   <div class="col">
-    <div class="card">
+    <div class="card mb-5">
       <div class="card-header p-0">
         <div class="card-image">
           <img :src="item.img" class="" alt="..." />
@@ -8,10 +8,10 @@
       </div>
 
       <div class="card-body">
-        <h5 class="card-title">{{ item.title }}</h5>
-        <p class="card-text">
-          This is a longer card with supporting text below as a natural lead-in
-          to additional content. This content is a little bit longer.
+        <h5 class="card-title p-4">{{ item.title }}</h5>
+        <div class="line mx-auto"></div>
+        <p class="card-text p-3">
+          {{ item.text }}
         </p>
       </div>
     </div>
@@ -30,6 +30,17 @@ export default {
 @use "../assets/styles/general.scss" as *;
 .card {
   background-color: white;
+  h5:hover {
+    color: $orange-title;
+    cursor: pointer;
+    transition: 200ms;
+  }
+  .line {
+    border: 0.5px solid $bg-subtitle;
+    width: 50%;
+
+    margin: 1.4rem;
+  }
 }
 .card-image {
   img {
