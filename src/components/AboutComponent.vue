@@ -69,11 +69,10 @@ export default {
     background-color: #367d64;
     color: white;
   }
-  .audiobook {
-    background-color: #f5ddae;
-  }
+
   ul {
     list-style: none;
+    margin-bottom: 0;
     li {
       width: 200px;
       margin-left: 2.5rem;
@@ -82,5 +81,8 @@ export default {
       }
     }
   }
+}
+.audiobook {
+  background-color: #fef7e9;
 }
 </style>
