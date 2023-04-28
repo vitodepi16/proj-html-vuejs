@@ -64,6 +64,7 @@ export default {
     li {
       width: 200px;
       margin-left: 2.5rem;
+      cursor: pointer;
       img {
         width: 100%;
       }

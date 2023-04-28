@@ -35,7 +35,7 @@
               alt="..."
             />
             <div class="card-body d-flex flex-column justify-content-end">
-              <h3 class="card-title fs-3 fw-light">What's On Your booklist</h3>
+              <h3 class="card-title fw-light">What's On Your booklist</h3>
               <h6 class="card-text">
                 by admin <span class="fusion-inline-sep">|</span> October 24th,
                 2019
@@ -92,6 +92,11 @@ export default {
 }
 .zone-right {
   width: 40%;
+  .card {
+    padding-bottom: 0;
+    padding-top: 60%;
+  }
+
   .card-body,
   .card-text {
     width: 100%;
@@ -99,7 +104,7 @@ export default {
     overflow: hidden;
     cursor: pointer;
     position: relative;
-
+    margin-bottom: 0;
     text-align: center;
   }
   img {
@@ -107,16 +112,15 @@ export default {
     height: 100%;
     position: absolute;
     object-fit: cover;
-
     top: 0;
     left: 0;
     opacity: 0.9;
-    transition: opacity 0.2s ease-out;
+    transition: opacity 0.5s ease-out;
   }
   h3 {
     position: absolute;
     transition: inset 0.3s 0.3s ease-out;
-    color: white;
+    color: black;
   }
   h6 {
     position: absolute;
@@ -125,26 +129,34 @@ export default {
     transition: opacity 0.3s ease-out;
   }
 
-  &:hover h3 {
+  .card-body:hover h3 {
     inset: auto auto 220px 30px;
     transition: inset 0.3s ease-out;
+    background-color: transparent;
   }
 
-  &:hover p {
+  .card-body:hover p {
     opacity: 1;
 
     transition: opacity 0.5s 0.1s ease-in;
   }
-
-  &:hover img {
+  .card-body:hover {
+    background-color: transparent;
+    transition: 300ms;
+  }
+  .card-body:hover img {
     transition: opacity 0.3s ease-in;
     opacity: 1;
   }
 }
+
 .card {
   width: 100%;
   height: 100%;
   padding: 60px;
+}
+.card-body {
+  background-color: white;
 }
 
 h3:hover {
