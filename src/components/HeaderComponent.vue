@@ -10,7 +10,7 @@
       <div
         class="nav-right justify-content-center align-items-center flex-wrap d-none d-md-flex"
       >
-        <ul class="d-flex flex-wrap mt-4">
+        <ul class="d-flex flex-wrap">
           <li>Home</li>
           <li>About Me</li>
           <li>Testimonials</li>
@@ -72,6 +72,16 @@ ul {
   li {
     margin: 1.2rem;
     color: white;
+    padding: 0.7rem;
+
+    &:hover {
+      color: $orange-title;
+      cursor: pointer;
+      transition: 100ms;
+      border-top: solid;
+
+      border-top-color: #f4b429;
+    }
   }
 }
 .jumbotron {

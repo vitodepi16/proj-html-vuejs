@@ -122,6 +122,7 @@ export default {
   border-radius: 0% 0% 25% 0%;
   margin: 2rem 0rem 2rem 0rem;
   overflow: hidden;
+  transition: 0.4s;
   img {
     object-fit: cover;
   }
@@ -132,11 +133,11 @@ export default {
     margin: 1.4rem;
   }
   &:hover {
-    transform: translateY(-10px);
+    transform: scale(1.1, 1.1);
+    box-shadow: 5px 5px 30px 15px rgba(0, 0, 0, 0.25),
+      -5px -5px 30px 15px rgba(0, 0, 0, 0.22);
 
-    box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
     cursor: pointer;
-    transition: 200ms;
   }
 }
 .btn {

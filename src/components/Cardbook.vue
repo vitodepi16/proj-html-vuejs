@@ -30,9 +30,10 @@ export default {
   border-radius: 0% 0% 20% 0%;
   overflow: hidden;
   transition: all 300ms;
+  border: 0;
 }
 .card:hover {
-  transform: translateY(-6px);
+  transform: translateY(-8px);
   box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
   cursor: pointer;
 }
