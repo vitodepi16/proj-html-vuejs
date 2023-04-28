@@ -24,7 +24,7 @@ export default {
 @use "../assets/partials/variables.scss" as *;
 
 .backgr {
-  background-image: url("img/bg-book-rotate.jpeg");
+  background-image: url("img/banner-2.jpg");
   background-repeat: no-repeat;
 }
 .newsletter {

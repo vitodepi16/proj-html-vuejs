@@ -42,7 +42,7 @@ export default {
   margin-top: 8rem;
 }
 .audiobook {
-  background-image: url("img/bg-book-rotate.jpeg");
+  background-image: url("img/banner.jpg");
   background-repeat: no-repeat;
 }
 h1 {
