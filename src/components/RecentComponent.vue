@@ -13,7 +13,15 @@
       <div class="zone-articles d-flex">
         <div class="zone-left">
           <div class="card mb-3">
-            <img src="img/20-Tips-600x353.jpg" class="card-img-top" alt="..." />
+            <div class="card-image">
+              <img
+                src="img/20-Tips-600x353.jpg"
+                class="card-img-top"
+                alt="..."
+              />
+              <div class="gradient"></div>
+            </div>
+
             <div class="card-body">
               <h3 class="card-title p-1">20 Creativity Tips</h3>
               <h6 class="card-title p-1">
@@ -89,6 +97,30 @@ export default {
 }
 .zone-left {
   width: 50%;
+  .card-image {
+    position: relative;
+    img {
+      height: 100%;
+      width: 100%;
+    }
+    &:hover {
+      cursor: pointer;
+      transition: 5000ms;
+      .gradient {
+        display: block;
+      }
+    }
+    .gradient {
+      display: none;
+      position: absolute;
+      content: "";
+      height: 100%;
+      width: 100%;
+      top: 0;
+      left: 0;
+      background: $bg-gradient;
+    }
+  }
 }
 .zone-right {
   width: 40%;
@@ -158,7 +190,9 @@ export default {
 .card-body {
   background-color: white;
 }
-
+.card-text {
+  width: 100%;
+}
 h3:hover {
   color: $orange-title;
   transition: 200ms;

@@ -5,5 +5,9 @@ $btn-green:#49a987;
 $bg-secondary: #fef7e9;
 $bg-black: #333333;
 $bg-subtitle: #c6c3c4c4;
-
-
+$bg-gradient:linear-gradient(
+       0deg,
+      rgba(91, 191, 148, 0.681) 11%,
+      rgba(173, 233, 229, 0.144) 53%,
+      rgba(223, 246, 227, 0.089) 79%,
+       rgba(255, 255, 255, 0.066) 95%)

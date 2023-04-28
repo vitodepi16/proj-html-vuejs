@@ -28,14 +28,20 @@
           </li>
         </ul>
       </div>
-      <div class="col mt-5">
+      <div class="col mt-5 info">
         <h2 class="text-uppercase">contact info</h2>
         <ul class="p-2">
           <li>63 E. Studebaker Street Bolingbrook, IL 60440</li>
           <li>Phone: (800) 000-0000</li>
           <li>Mobile: (800) 000-0000</li>
           <li>Email: <span class="hover"> info@your-company.com </span></li>
-          <li>social</li>
+          <li>
+            <i class="fa-brands fa-facebook-f"></i>
+            <i class="fa-brands fa-twitter"></i>
+            <i class="fa-brands fa-instagram"></i>
+            <i class="fa-brands fa-youtube"></i>
+            <i class="fa-brands fa-linkedin"></i>
+          </li>
         </ul>
       </div>
       <p class="text-center mt-5 p-3">
@@ -87,6 +93,15 @@ ul {
   li {
     margin-top: 0.7rem;
     color: $bg-subtitle;
+  }
+}
+.info {
+  i {
+    margin-left: 1rem;
+    &:hover {
+      color: $orange-title;
+      cursor: pointer;
+    }
   }
 }
 </style>

@@ -3,7 +3,7 @@
     <div class="navbar d-flex justify-content-between align-items-center">
       <div class="nav left">
         <div class="logo ms-5">
-          <img src="../../public/img/author-logo-round-small.png" alt="" />
+          <img src="img/author-logo-round-small.png" alt="" />
         </div>
       </div>
 
@@ -34,7 +34,7 @@
       <div class="book-release p-4">
         <div class="d-flex">
           <div class="book-img">
-            <img src="../../public/img/book-widget.png" class="ms-4" alt="" />
+            <img src="img/book-widget.png" class="ms-4" alt="" />
           </div>
           <div class="p-4">
             <h2>Latest Book Release</h2>
@@ -95,6 +95,7 @@ ul {
     color: white;
     line-height: 3rem;
     font-weight: 800;
+    font-family: Arial, Helvetica, sans-serif;
   }
   p {
     color: $bg-subtitle;
