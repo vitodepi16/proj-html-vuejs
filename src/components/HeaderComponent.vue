@@ -46,8 +46,12 @@
           </div>
         </div>
         <div class="zone-btn d-flex justify-content-around p-4">
-          <button class="btn">Buy on Amazon</button>
-          <button class="btn">Buy on App Store</button>
+          <button class="btn btn-lg">
+            <i class="fa-brands fa-amazon"></i> Buy on Amazon
+          </button>
+          <button class="btn btn-lg">
+            <i class="fa-solid fa-apple-whole"></i> Buy on App Store
+          </button>
         </div>
       </div>
     </div>
@@ -62,7 +66,7 @@ export default {
 
 <style lang="scss" scoped>
 @use "../assets/partials/variables.scss" as *;
-@use "../assets/styles/general.scss" as *;
+
 ul {
   list-style: none;
   li {
@@ -115,6 +119,8 @@ ul {
       border: 1px solid #49a987;
       font-size: small;
       width: 120px;
+      width: fit-content;
+      height: fit-content;
     }
     .btn:hover {
       background-color: #49a987;

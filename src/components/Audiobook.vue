@@ -11,7 +11,9 @@
           Donec fringilla nunc eu turpis dignissim, at euismod sapien tincidunt.
           Maecenas eleifend congue cursus.
         </p>
-        <button class="btn">Buy This On Audible</button>
+        <button class="btn">
+          <i class="fa-brands fa-amazon me-3"></i>Buy This On Audible
+        </button>
       </div>
     </div>
   </div>
@@ -25,7 +27,7 @@ export default {
 
 <style lang="scss" scoped>
 @use "../assets/partials/variables.scss" as *;
-@use "../assets/styles/general.scss" as *;
+
 .phone-book {
   margin-top: 2.5rem;
   width: 30%;

@@ -36,7 +36,7 @@ export default {
 
 <style lang="scss" scoped>
 @use "../assets/partials/variables.scss" as *;
-@use "../assets/styles/general.scss" as *;
+
 .container {
   h1 {
     color: $orange-title;

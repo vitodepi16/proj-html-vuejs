@@ -23,7 +23,7 @@ export default {
 
 <style lang="scss" scoped>
 @use "../assets/partials/variables.scss" as *;
-@use "../assets/styles/general.scss" as *;
+
 .card {
   background-color: white;
   height: 100%;

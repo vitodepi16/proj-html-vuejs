@@ -1,7 +1,11 @@
 @use '../partials/variables.scss' as *;
 
+$fa-font-path: '../webfonts';
 @import '@fortawesome/fontawesome-free/scss/fontawesome.scss';
 @import '@fortawesome/fontawesome-free/scss/solid.scss';
+@import '@fortawesome/fontawesome-free/scss/regular.scss';
+@import '@fortawesome/fontawesome-free/scss/brands.scss';
+
 @import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;1,400;1,500&display=swap');   
 
 

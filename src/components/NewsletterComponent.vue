@@ -22,7 +22,7 @@ export default {
 
 <style lang="scss" scoped>
 @use "../assets/partials/variables.scss" as *;
-@use "../assets/styles/general.scss" as *;
+
 .backgr {
   background-image: url("../../public/img/bg-book-rotate.jpeg");
   background-repeat: no-repeat;

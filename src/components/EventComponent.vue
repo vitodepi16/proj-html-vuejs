@@ -43,7 +43,6 @@ export default {
 
 <style lang="scss" scoped>
 @use "../assets/partials/variables.scss" as *;
-@use "../assets/styles/general.scss" as *;
 
 .backg {
   background-color: #fef7e9;

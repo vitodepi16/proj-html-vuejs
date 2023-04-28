@@ -5,14 +5,14 @@
       TESTIMONIALS FROM AROUND THE WORLD
     </h3>
     <div class="d-flex justify-content-around">
-      <section class="section-left">
-        <div class="card card-left text-bg-dark">
-          <img src="img/event-04-800x479.jpg" class="h-100" alt="..." />
+      <section class="section-left h-100">
+        <div class="card card-left text-bg-dark h-100">
+          <img src="img/testimonials.jpeg" class="h-100" alt="..." />
           <div class="card-img-overlay">
-            <h5 class="card-title fs-2 p-3 ms-4">
+            <h5 class="card-title fs-1 p-3 ms-4">
               Best Author of His Generation
             </h5>
-            <div class="line"></div>
+            <div class="line m-5"></div>
             <div class="text-start ms-4">
               <h2 class="card-text mt-2 mb-2 p-2 fs-3">
                 This Book will change your perspective on life
@@ -92,7 +92,7 @@ export default {
 
 <style lang="scss" scoped>
 @use "../assets/partials/variables.scss" as *;
-@use "../assets/styles/general.scss" as *;
+
 .section-left {
   width: 50%;
 }
@@ -122,11 +122,21 @@ export default {
   border-radius: 0% 0% 25% 0%;
   margin: 2rem 0rem 2rem 0rem;
   overflow: hidden;
+  img {
+    object-fit: cover;
+  }
 
   .line {
     border: 0.5px solid white;
     width: 80%;
     margin: 1.4rem;
+  }
+  &:hover {
+    transform: translateY(-10px);
+
+    box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+    cursor: pointer;
+    transition: 200ms;
   }
 }
 .btn {
